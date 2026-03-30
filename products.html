@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ZINWEAR — Collection complète. Hoodies, t-shirts, vestes, cargos et accessoires streetwear premium africain." />
+  <title>Produits — ZINWEAR</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav" aria-label="Navigation principale">
+    <div class="container-fluid px-4 px-lg-5">
+      <a class="navbar-brand" href="index.html" aria-label="ZINWEAR Accueil">
+        <img src="images/logo-zinwear.png" alt="ZINWEAR Logo" class="nav-logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Ouvrir le menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">À Propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Produits</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="nav-link nav-cta" href="products.html">
+              Shop Now <span class="cart-badge" style="display:none">0</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE BANNER -->
+  <section class="page-banner" aria-label="Bannière page Produits">
+    <div class="page-banner-bg" role="img" aria-label="Collection ZINWEAR"></div>
+    <div class="page-banner-overlay" aria-hidden="true"></div>
+    <div class="container-fluid px-4 px-lg-5 page-banner-content">
+      <div class="row">
+        <div class="col-lg-8">
+          <span class="section-label fade-in-up">Collection 2025</span>
+          <h1 class="fade-in-up" data-delay="100">La<br />Collection</h1>
+          <p class="page-banner-sub fade-in-up" data-delay="200">Streetwear Premium · Éditions Limitées</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="section-pad" aria-label="Catalogue produits ZINWEAR">
+      <div class="container-fluid px-4 px-lg-5">
+
+        <!-- Filter buttons -->
+        <div class="products-filter fade-in-up" role="group" aria-label="Filtrer les produits">
+          <button class="filter-btn active" data-filter="all">Tout</button>
+          <button class="filter-btn" data-filter="hoodie">Hoodies</button>
+          <button class="filter-btn" data-filter="tshirt">T-Shirts</button>
+          <button class="filter-btn" data-filter="jacket">Vestes</button>
+          <button class="filter-btn" data-filter="pants">Pantalons</button>
+          <button class="filter-btn" data-filter="accessory">Accessoires</button>
+        </div>
+
+        <!-- Products Grid — Bootstrap Cards -->
+        <div class="row g-3 g-lg-4" id="products-grid">
+
+          <!-- ── HOODIES ── -->
+
+          <!-- P01: Hoodie Noir Ancestral (ICONIQUE) -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="0" data-category="hoodie">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-hoodie-1.jpg" alt="Hoodie Noir Ancestral ZINWEAR — Glyphes brodés oversize" loading="lazy" />
+                <span class="product-badge badge-limited">Édition Limitée</span>
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Hoodie Noir Ancestral</h3>
+                <p class="product-desc">La pièce iconique. Base noire. Glyphes Adinkra brodés blanc ivoire. Coupe oversize structurée. 400g/m².</p>
+                <div class="product-price-row">
+                  <span class="product-price">52 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- P02: Hoodie Urban Gris -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="60" data-category="hoodie">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-hoodie-2.jpg" alt="Hoodie Urban Gris Minéral ZINWEAR" loading="lazy" />
+                <span class="product-badge badge-new">Nouveau</span>
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Hoodie Gris Minéral</h3>
+                <p class="product-desc">Gris cendre premium. Logo ZINWEAR brodé poitrine. Poche kangourou structurée.</p>
+                <div class="product-price-row">
+                  <span class="product-price">47 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- P03: Hoodie Ivoire Futuriste -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="120" data-category="hoodie">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-hoodie-3.jpg" alt="Hoodie Blanc Ivoire ZINWEAR Futuriste" loading="lazy" />
+                <span class="product-badge badge-limited">Édition Limitée</span>
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Hoodie Ivoire Futuriste</h3>
+                <p class="product-desc">Base ivoire. Symboles tribaux imprimés dos. Finition coutures violettes.</p>
+                <div class="product-price-row">
+                  <span class="product-price">55 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- ── T-SHIRTS ── -->
+
+          <!-- P04: T-Shirt Ivoire Oversize -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="0" data-category="tshirt">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-tshirt-1.jpg" alt="T-Shirt Oversize Ivoire ZINWEAR" loading="lazy" />
+                <span class="product-badge badge-bestseller">Best Seller</span>
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">T-Shirt Ivoire Oversize</h3>
+                <p class="product-desc">Coton 300g/m². Coupe boxy. Logo ZINWEAR monochrome poitrine.</p>
+                <div class="product-price-row">
+                  <span class="product-price">18 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- P05: T-Shirt Noir Graphique -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="60" data-category="tshirt">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-tshirt-2.jpg" alt="T-Shirt Noir Graphique ZINWEAR Motif Tribal" loading="lazy" />
+                <span class="product-badge badge-new">Nouveau</span>
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">T-Shirt Noir Graphique</h3>
+                <p class="product-desc">Impression digitale grand format dos. Motif glyphes abstractifs. Coton premium.</p>
+                <div class="product-price-row">
+                  <span class="product-price">22 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- P06: T-Shirt Gris Distressed -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="120" data-category="tshirt">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-tshirt-3.jpg" alt="T-Shirt Gris Washed ZINWEAR" loading="lazy" />
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">T-Shirt Washed Grey</h3>
+                <p class="product-desc">Délavage premium. Effet vintage maîtrisé. Broderie ZINWEAR épaule.</p>
+                <div class="product-price-row">
+                  <span class="product-price">20 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- ── VESTES ── -->
+
+          <!-- P07: Veste Urbaniste -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="0" data-category="jacket">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-jacket-1.jpg" alt="Veste Urbaniste Nylon Technique ZINWEAR" loading="lazy" />
+                <span class="product-badge badge-bestseller">Best Seller</span>
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Veste Urbaniste</h3>
+                <p class="product-desc">Nylon technique imperméable. Poches zippées architecturales. Col structuré.</p>
+                <div class="product-price-row">
+                  <span class="product-price">85 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- P08: Veste Coach Noire -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="60" data-category="jacket">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-jacket-2.jpg" alt="Veste Coach Noire ZINWEAR Streetwear Premium" loading="lazy" />
+                <span class="product-badge badge-limited">Édition Limitée</span>
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Veste Coach Premium</h3>
+                <p class="product-desc">Twill 100% coton. Broderies dorsales ZINWEAR. Finitions métal vintage.</p>
+                <div class="product-price-row">
+                  <span class="product-price">72 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- ── PANTALONS ── -->
+
+          <!-- P09: Cargo Minimaliste -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="0" data-category="pants">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-pants-1.jpg" alt="Cargo Minimaliste Noir ZINWEAR" loading="lazy" />
+                <span class="product-badge badge-new">Nouveau</span>
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Cargo Minimaliste</h3>
+                <p class="product-desc">Coupe droite architecturale. Taille élastique. Poches plaquées. Métal vintage.</p>
+                <div class="product-price-row">
+                  <span class="product-price">42 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- P10: Pantalon Large Ivoire -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="60" data-category="pants">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-pants-2.jpg" alt="Pantalon Large Ivoire ZINWEAR Premium" loading="lazy" />
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Pantalon Large Ivoire</h3>
+                <p class="product-desc">Lin-coton premium. Taille haute structurée. Tombé parfait. Exclusif ZINWEAR.</p>
+                <div class="product-price-row">
+                  <span class="product-price">38 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- ── ACCESSOIRES ── -->
+
+          <!-- P11: Casquette Snapback -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="0" data-category="accessory">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-cap-1.jpg" alt="Casquette Snapback Noire ZINWEAR" loading="lazy" />
+                <span class="product-badge badge-bestseller">Best Seller</span>
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Cap Snapback ZW</h3>
+                <p class="product-desc">Twill 6 panneaux. Logo brodé avant. Ajusteur métal. Édition noire et ivoire.</p>
+                <div class="product-price-row">
+                  <span class="product-price">15 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- P12: Tote Bag Premium -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="60" data-category="accessory">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-bag-1.jpg" alt="Tote Bag Premium ZINWEAR Noir" loading="lazy" />
+                <span class="product-badge badge-new">Nouveau</span>
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Tote Bag Noir</h3>
+                <p class="product-desc">Coton épais 400g. Sérigraphie signature ZINWEAR. Anses renforcées cuir synthétique.</p>
+                <div class="product-price-row">
+                  <span class="product-price">12 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- P13: Ensemble Coordonné -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="120" data-category="hoodie">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-set-1.jpg" alt="Ensemble Coordonné Streetwear ZINWEAR Noir" loading="lazy" />
+                <span class="product-badge badge-limited">Édition Limitée</span>
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Set Coordonné Noir</h3>
+                <p class="product-desc">Hoodie + Cargo assortis. Collection capsule. Numéroté 1/50. Tissu premium.</p>
+                <div class="product-price-row">
+                  <span class="product-price">88 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- P14: Sac Bandoulière -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="0" data-category="accessory">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-bag-2.jpg" alt="Sac Bandoulière ZINWEAR Streetwear" loading="lazy" />
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Sac Bandoulière ZW</h3>
+                <p class="product-desc">Nylon résistant. Fermetures YKK. Patch ZINWEAR thermocollé. Réglable.</p>
+                <div class="product-price-row">
+                  <span class="product-price">28 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- P15: Sweat Zip -->
+          <div class="col-6 col-md-4 col-lg-3 product-card-wrapper fade-in-up" data-delay="60" data-category="jacket">
+            <article class="product-card h-100">
+              <div class="product-img-wrap">
+                <img src="images/product-jacket-3.jpg" alt="Sweat Zip ZINWEAR Premium Noir" loading="lazy" />
+                <span class="product-badge badge-new">Nouveau</span>
+                <div class="product-overlay">
+                  <button class="btn-add-cart w-100 justify-content-center">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                    <span>Ajouter au panier</span>
+                  </button>
+                </div>
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Sweat Zip Premium</h3>
+                <p class="product-desc">Zip central YKK. Capuche structurée. Broderies subtiles. Confort maximal.</p>
+                <div class="product-price-row">
+                  <span class="product-price">45 000<span class="product-price-unit"> FCFA</span></span>
+                  <button class="btn-add-cart"><i class="fas fa-plus" aria-hidden="true"></i></button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div><!-- /.row#products-grid -->
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer role="contentinfo">
+    <div class="container-fluid px-4 px-lg-5">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <div class="footer-brand-name">ZINWEAR</div>
+          <div class="footer-tagline">Born in Africa. Worn by the World.</div>
+          <p style="font-size:0.82rem;color:var(--grey-mid);margin-top:1.5rem;line-height:1.8;max-width:280px;">Streetwear premium africain. Chaque pièce est une déclaration d'identité. Abomey-Calavi, Bénin.</p>
+          <div class="footer-social" role="list" aria-label="Réseaux sociaux">
+            <a href="#" class="social-link" aria-label="Instagram" role="listitem"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="TikTok" role="listitem"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter" role="listitem"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="Facebook" role="listitem"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h3 class="footer-heading">Navigation</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="products.html">Produits</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h3 class="footer-heading">Collections</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="products.html">Hoodies</a></li>
+            <li><a href="products.html">T-Shirts</a></li>
+            <li><a href="products.html">Vestes</a></li>
+            <li><a href="products.html">Accessoires</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h3 class="footer-heading">Contact</h3>
+          <ul class="footer-links" role="list">
+            <li style="margin-bottom:0.9rem;"><span style="color:var(--grey-mid);font-size:0.82rem;"><i class="fas fa-map-marker-alt me-2" style="color:var(--violet-glow);" aria-hidden="true"></i>Abomey-Calavi, Bénin</span></li>
+            <li style="margin-bottom:0.9rem;"><a href="mailto:contact@zinwear.com" style="color:var(--grey-mid);"><i class="fas fa-envelope me-2" style="color:var(--violet-glow);" aria-hidden="true"></i>contact@zinwear.com</a></li>
+            <li><a href="tel:+22997000000" style="color:var(--grey-mid);"><i class="fas fa-phone me-2" style="color:var(--violet-glow);" aria-hidden="true"></i>+229 97 00 00 00</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 ZINWEAR — Tous droits réservés</p>
+        <p class="footer-copy">MOMBO OMIAGA E. · AGBO H. · DAVAKAN L.M.</p>
+        <p class="footer-copy">Abomey-Calavi, République du Bénin</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Chatbot -->
+  <button id="chatbot-trigger" aria-label="Ouvrir le chatbot ZINWEAR" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+    </svg>
+  </button>
+  <div id="chatbot-window" role="dialog" aria-label="Assistant ZINWEAR" aria-modal="true">
+    <div class="chatbot-header">
+      <div class="chatbot-header-info">
+        <div class="chatbot-avatar" aria-hidden="true">Z</div>
+        <div>
+          <div class="chatbot-title">Assistant ZINWEAR</div>
+          <div class="chatbot-status">En ligne</div>
+        </div>
+      </div>
+      <button class="chatbot-close" id="chatbot-close" aria-label="Fermer"><i class="fas fa-times" aria-hidden="true"></i></button>
+    </div>
+    <div class="chatbot-messages" id="chatbot-messages" aria-live="polite"></div>
+    <div class="chatbot-input-row">
+      <input type="text" class="chatbot-input" id="chatbot-input" placeholder="Posez votre question..." aria-label="Votre message" maxlength="500" />
+      <button class="chatbot-send" id="chatbot-send" aria-label="Envoyer"><i class="fas fa-paper-plane" aria-hidden="true"></i></button>
+    </div>
+  </div>
+  <div id="cart-notification" role="alert" aria-live="polite">
+    <div class="notif-text">Produit ajouté</div>
+    <div class="notif-sub">Panier mis à jour ✓</div>
+  </div>
+  <button id="back-to-top" aria-label="Retour en haut"><i class="fas fa-chevron-up" aria-hidden="true"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

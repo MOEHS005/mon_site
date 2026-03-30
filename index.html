@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ZINWEAR — Streetwear premium africain. Born in Africa. Worn by the World. Abomey-Calavi, Bénin." />
+  <title>ZINWEAR — Born in Africa. Worn by the World.</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ====================================================
+       NAVBAR
+  ===================================================== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav" aria-label="Navigation principale">
+    <div class="container-fluid px-4 px-lg-5">
+
+      <!-- Brand / Logo -->
+      <a class="navbar-brand" href="index.html" aria-label="ZINWEAR Accueil">
+        <img src="images/logo-zinwear.png" alt="ZINWEAR Logo" class="nav-logo" />
+      </a>
+
+      <!-- Hamburger toggle -->
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Ouvrir le menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">À Propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Produits</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="nav-link nav-cta" href="products.html">
+              Shop Now <span class="cart-badge" style="display:none">0</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ====================================================
+       HERO SECTION
+  ===================================================== -->
+  <section id="hero" aria-label="Section héro ZINWEAR">
+    <!-- Background image -->
+    <div class="hero-bg" role="img" aria-label="Streetwear premium africain"></div>
+    <!-- Dark overlay -->
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <!-- Grain texture -->
+    <div class="hero-grain" aria-hidden="true"></div>
+
+    <div class="container-fluid px-4 px-lg-5">
+      <div class="row hero-content">
+        <div class="col-lg-8 col-xl-7">
+
+          <!-- Eyebrow label -->
+          <p class="hero-eyebrow fade-in-up" data-delay="0">
+            Abomey-Calavi, Bénin · Collection 2025
+          </p>
+
+          <!-- Main title -->
+          <h1 class="hero-title fade-in-up" data-delay="100">
+            ZIN<span class="accent">WEAR</span>
+          </h1>
+
+          <!-- Subtitle / slogan -->
+          <p class="hero-subtitle fade-in-up" data-delay="200">
+            Born in Africa. Worn by the World.
+          </p>
+
+          <!-- Manifesto -->
+          <p class="hero-desc fade-in-up" data-delay="300">
+            Streetwear haut de gamme né de l'énergie de Calavi.
+            Chaque pièce est une déclaration d'identité —
+            africaine, futuriste, intemporelle.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="hero-cta-group fade-in-up" data-delay="400">
+            <a href="products.html" class="btn-zinwear">
+              <span>Explorer la Collection</span>
+            </a>
+            <a href="about.html" class="btn-zinwear-outline">
+              Notre Histoire
+            </a>
+          </div>
+
+          <!-- Stats -->
+          <div class="hero-stat-row fade-in-up" data-delay="500">
+            <div class="hero-stat">
+              <div class="hero-stat-number" data-counter="12" data-suffix="+">0+</div>
+              <div class="hero-stat-label">Pièces en collection</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-number" data-counter="3" data-suffix="">0</div>
+              <div class="hero-stat-label">Fondateurs</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-number" data-counter="1" data-suffix="">0</div>
+              <div class="hero-stat-label">Vision africaine</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="hero-scroll" aria-hidden="true">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       CAROUSEL — COLLECTION SLIDES
+  ===================================================== -->
+  <section aria-label="Carrousel de la collection">
+    <div id="collectionCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#collectionCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#collectionCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#collectionCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#collectionCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+
+      <!-- Slides -->
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img src="images/carousel-1.jpg" alt="ZINWEAR Collection Urbaine — Hoodie premium noir" loading="lazy" />
+          <div class="carousel-overlay" aria-hidden="true"></div>
+          <div class="carousel-caption">
+            <p class="slide-number">01 / 04</p>
+            <h3>Urban Silence</h3>
+            <p>La collection qui réinvente le silence urbain en langage de mode.</p>
+            <a href="products.html" class="btn-zinwear-outline">Découvrir</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <img src="images/carousel-2.jpg" alt="ZINWEAR — Esthétique streetwear africain" loading="lazy" />
+          <div class="carousel-overlay" aria-hidden="true"></div>
+          <div class="carousel-caption">
+            <p class="slide-number">02 / 04</p>
+            <h3>Noir Originel</h3>
+            <p>Le noir comme fondation — couleur de l'univers, de la nuit de Calavi.</p>
+            <a href="products.html" class="btn-zinwear-outline">Explorer</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <img src="images/carousel-3.jpg" alt="ZINWEAR — Mode premium futuriste" loading="lazy" />
+          <div class="carousel-overlay" aria-hidden="true"></div>
+          <div class="carousel-caption">
+            <p class="slide-number">03 / 04</p>
+            <h3>Futur Ancestral</h3>
+            <p>Symboles anciens. Silhouettes futures. L'Afrique réinventée.</p>
+            <a href="products.html" class="btn-zinwear-outline">Voir la pièce</a>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+          <img src="images/carousel-4.jpg" alt="ZINWEAR — Veste streetwear édition limitée" loading="lazy" />
+          <div class="carousel-overlay" aria-hidden="true"></div>
+          <div class="carousel-caption">
+            <p class="slide-number">04 / 04</p>
+            <h3>Édition Limitée</h3>
+            <p>Chaque pièce ZINWEAR est numérotée. L'exclusivité est notre standard.</p>
+            <a href="products.html" class="btn-zinwear-outline">Édition limitée</a>
+          </div>
+        </div>
+
+      </div><!-- /.carousel-inner -->
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#collectionCarousel" data-bs-slide="prev" aria-label="Slide précédente">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#collectionCarousel" data-bs-slide="next" aria-label="Slide suivante">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+
+    </div>
+  </section>
+
+  <!-- ====================================================
+       BRAND PRESENTATION
+  ===================================================== -->
+  <section class="section-brand" aria-label="Présentation de la marque ZINWEAR">
+    <div class="container-fluid px-4 px-lg-5">
+      <div class="row align-items-center g-5">
+
+        <!-- Left: Manifesto -->
+        <div class="col-lg-6">
+          <div class="fade-in-left">
+            <span class="section-label">Notre Identité</span>
+            <h2 class="display-title mb-4" style="font-size:clamp(2.5rem,5vw,5rem);color:var(--white);">
+              L'Afrique<br />
+              <span style="color:transparent;-webkit-text-stroke:1px rgba(245,240,235,0.3)">Future</span>
+            </h2>
+            <p class="brand-manifesto mb-4">
+              ZINWEAR naît d'une conviction simple :<br />
+              <strong>l'Afrique n'inspire plus — elle dicte.</strong>
+            </p>
+            <p class="brand-manifesto mb-5" style="font-size:1rem;color:var(--grey-mid);">
+              Depuis Abomey-Calavi, nous créons des vêtements qui parlent de puissance, de mémoire,
+              de futur. Chaque couture est un geste culturel. Chaque tissu, une <span class="highlight">déclaration de dignité</span>.
+              Streetwear ne veut pas dire ordinaire. Chez ZINWEAR, il signifie <strong>précision, vision, héritage</strong>.
+            </p>
+            <a href="about.html" class="btn-zinwear-outline">Lire notre histoire</a>
+          </div>
+        </div>
+
+        <!-- Right: Brand pillars -->
+        <div class="col-lg-6">
+          <div class="fade-in-right">
+            <div class="brand-pillars">
+              <div class="brand-pillar">
+                <div class="pillar-icon">— 01</div>
+                <div class="pillar-title">Héritage</div>
+                <div class="pillar-desc">Symboles Fon, Yoruba, Adinkra réinterprétés avec une précision chirurgicale.</div>
+              </div>
+              <div class="brand-pillar">
+                <div class="pillar-icon">— 02</div>
+                <div class="pillar-title">Futurisme</div>
+                <div class="pillar-desc">Silhouettes du lendemain, coupes architecturales, matières techniques premium.</div>
+              </div>
+              <div class="brand-pillar">
+                <div class="pillar-icon">— 03</div>
+                <div class="pillar-title">Minimalisme</div>
+                <div class="pillar-desc">Chaque détail inutile a été supprimé. Ce qui reste est pur, fort, essentiel.</div>
+              </div>
+              <div class="brand-pillar">
+                <div class="pillar-icon">— 04</div>
+                <div class="pillar-title">Exclusivité</div>
+                <div class="pillar-desc">Éditions limitées. Numérotées. Jamais produites en masse.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       FEATURED PRODUCTS
+  ===================================================== -->
+  <section class="section-products" aria-label="Produits vedettes ZINWEAR">
+    <div class="container-fluid px-4 px-lg-5">
+
+      <!-- Header -->
+      <div class="section-header fade-in-up">
+        <span class="section-label">Sélection</span>
+        <div class="d-flex align-items-end justify-content-between flex-wrap gap-3">
+          <h2 class="display-title" style="font-size:clamp(2.5rem,5vw,5rem);color:var(--white);">
+            Pièces Vedettes
+          </h2>
+          <a href="products.html" class="btn-zinwear-outline mb-2">Voir tout</a>
+        </div>
+        <div class="section-divider"></div>
+      </div>
+
+      <!-- Product Grid — Bootstrap Cards -->
+      <div class="row g-3 g-lg-4">
+
+        <!-- Product 1 -->
+        <div class="col-6 col-md-4 col-lg-3 fade-in-up" data-delay="0">
+          <article class="product-card h-100">
+            <div class="product-img-wrap">
+              <img src="images/product-hoodie-1.jpg" alt="Hoodie Noir Ancestral ZINWEAR" loading="lazy" />
+              <span class="product-badge badge-limited">Édition Limitée</span>
+              <div class="product-overlay">
+                <a href="products.html" class="btn-add-cart w-100 justify-content-center">
+                  <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                  <span>Ajouter au panier</span>
+                </a>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Hoodie Noir Ancestral</h3>
+              <p class="product-desc">Glyphes Adinkra brodés. Coupe oversize structurée.</p>
+              <div class="product-price-row">
+                <span class="product-price">52 000<span class="product-price-unit">FCFA</span></span>
+                <a href="products.html" class="btn-add-cart">
+                  <i class="fas fa-plus" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-6 col-md-4 col-lg-3 fade-in-up" data-delay="100">
+          <article class="product-card h-100">
+            <div class="product-img-wrap">
+              <img src="images/product-tshirt-1.jpg" alt="T-Shirt Oversize ZINWEAR Blanc Ivoire" loading="lazy" />
+              <span class="product-badge badge-new">Nouveau</span>
+              <div class="product-overlay">
+                <a href="products.html" class="btn-add-cart w-100 justify-content-center">
+                  <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                  <span>Ajouter au panier</span>
+                </a>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">T-Shirt Ivoire Oversize</h3>
+              <p class="product-desc">Coton 300g/m². Logo ZINWEAR monochrome.</p>
+              <div class="product-price-row">
+                <span class="product-price">18 000<span class="product-price-unit">FCFA</span></span>
+                <a href="products.html" class="btn-add-cart">
+                  <i class="fas fa-plus" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-6 col-md-4 col-lg-3 fade-in-up" data-delay="200">
+          <article class="product-card h-100">
+            <div class="product-img-wrap">
+              <img src="images/product-jacket-1.jpg" alt="Veste Cargo Urbaniste ZINWEAR" loading="lazy" />
+              <span class="product-badge badge-bestseller">Best Seller</span>
+              <div class="product-overlay">
+                <a href="products.html" class="btn-add-cart w-100 justify-content-center">
+                  <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                  <span>Ajouter au panier</span>
+                </a>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Veste Urbaniste</h3>
+              <p class="product-desc">Nylon technique. Poches architecturales. Col structuré.</p>
+              <div class="product-price-row">
+                <span class="product-price">85 000<span class="product-price-unit">FCFA</span></span>
+                <a href="products.html" class="btn-add-cart">
+                  <i class="fas fa-plus" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-6 col-md-4 col-lg-3 fade-in-up" data-delay="300">
+          <article class="product-card h-100">
+            <div class="product-img-wrap">
+              <img src="images/product-pants-1.jpg" alt="Pantalon Cargo Premium ZINWEAR" loading="lazy" />
+              <span class="product-badge badge-new">Nouveau</span>
+              <div class="product-overlay">
+                <a href="products.html" class="btn-add-cart w-100 justify-content-center">
+                  <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                  <span>Ajouter au panier</span>
+                </a>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Cargo Minimaliste</h3>
+              <p class="product-desc">Coupe droite, taille élastique, détails métal vintage.</p>
+              <div class="product-price-row">
+                <span class="product-price">42 000<span class="product-price-unit">FCFA</span></span>
+                <a href="products.html" class="btn-add-cart">
+                  <i class="fas fa-plus" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div><!-- /.row -->
+    </div>
+  </section>
+
+  <!-- ====================================================
+       SIGNATURE CONCEPT
+  ===================================================== -->
+  <section class="section-concept" aria-label="Concept visuel ZINWEAR">
+    <div class="container-fluid px-4 px-lg-5">
+      <div class="row align-items-center g-5">
+
+        <!-- Left: Visual -->
+        <div class="col-lg-5 fade-in-left">
+          <div class="concept-visual">
+            <img src="images/concept-visual.jpg" alt="Philosophie esthétique ZINWEAR" loading="lazy" />
+            <div class="concept-tag">
+              <span>Collection 2025</span>
+              <span style="color:var(--white);font-family:var(--font-heading);font-weight:700;font-size:1rem;margin-top:0.3rem;">Futur Ancestral</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Philosophy -->
+        <div class="col-lg-7 col-xl-6 offset-xl-1 fade-in-right">
+          <span class="section-label">Philosophie</span>
+          <h2 class="display-title mb-4" style="font-size:clamp(2rem,4vw,4rem);color:var(--white);">
+            La Signature<br />ZINWEAR
+          </h2>
+          <div class="section-divider"></div>
+          <p style="color:var(--grey-mid);line-height:1.9;margin-bottom:2rem;">
+            Notre philosophie esthétique repose sur une conviction : <strong style="color:var(--white);">la beauté la plus puissante est celle qui sait ce qu'elle efface</strong>.
+            Chaque collection ZINWEAR retire le superflu jusqu'à atteindre l'essentiel — la tension parfaite entre présence et absence.
+          </p>
+          <p style="color:var(--grey-mid);line-height:1.9;margin-bottom:2.5rem;">
+            Les matières parlent : béton et douceur, acier et tissu, ombre et lumière.
+            Les symboles murmurent : glyphes anciens, tracés urbains, cosmogonie Fon sublimée.
+            Le tout dans une palette <strong style="color:var(--violet-glow);">noir dominant, ivoire, touche violette</strong> — signature d'une maison qui assume sa singularité.
+          </p>
+
+          <!-- Concept tags -->
+          <div class="d-flex flex-wrap gap-2 mb-4">
+            <span style="font-family:var(--font-mono);font-size:0.6rem;letter-spacing:0.18em;color:var(--grey-mid);border:1px solid rgba(245,240,235,0.1);padding:0.4rem 0.8rem;text-transform:uppercase;">Béton & Métal</span>
+            <span style="font-family:var(--font-mono);font-size:0.6rem;letter-spacing:0.18em;color:var(--grey-mid);border:1px solid rgba(245,240,235,0.1);padding:0.4rem 0.8rem;text-transform:uppercase;">Symboles Anciens</span>
+            <span style="font-family:var(--font-mono);font-size:0.6rem;letter-spacing:0.18em;color:var(--violet-glow);border:1px solid rgba(123,53,216,0.3);padding:0.4rem 0.8rem;text-transform:uppercase;">Futurisme Africain</span>
+            <span style="font-family:var(--font-mono);font-size:0.6rem;letter-spacing:0.18em;color:var(--grey-mid);border:1px solid rgba(245,240,235,0.1);padding:0.4rem 0.8rem;text-transform:uppercase;">Luxe Minimaliste</span>
+          </div>
+
+          <a href="products.html" class="btn-zinwear"><span>Voir la Collection</span></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================
+       FOOTER
+  ===================================================== -->
+  <footer role="contentinfo">
+    <div class="container-fluid px-4 px-lg-5">
+      <div class="row g-5">
+
+        <!-- Brand col -->
+        <div class="col-lg-4">
+          <div class="footer-brand-name">ZINWEAR</div>
+          <div class="footer-tagline">Born in Africa. Worn by the World.</div>
+          <p style="font-size:0.82rem;color:var(--grey-mid);margin-top:1.5rem;line-height:1.8;max-width:280px;">
+            Streetwear premium africain. Chaque pièce est une déclaration d'identité.
+            Abomey-Calavi, Bénin.
+          </p>
+          <!-- Social -->
+          <div class="footer-social" role="list" aria-label="Réseaux sociaux">
+            <a href="#" class="social-link" aria-label="Instagram ZINWEAR" role="listitem"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="TikTok ZINWEAR" role="listitem"><i class="fab fa-tiktok" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter ZINWEAR" role="listitem"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="Facebook ZINWEAR" role="listitem"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="col-6 col-lg-2">
+          <h3 class="footer-heading">Navigation</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="products.html">Produits</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Collections -->
+        <div class="col-6 col-lg-2">
+          <h3 class="footer-heading">Collections</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="products.html">Hoodies</a></li>
+            <li><a href="products.html">T-Shirts</a></li>
+            <li><a href="products.html">Vestes</a></li>
+            <li><a href="products.html">Accessoires</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-lg-4">
+          <h3 class="footer-heading">Contact</h3>
+          <ul class="footer-links" role="list" style="pointer-events:all;">
+            <li style="margin-bottom:0.9rem;">
+              <span style="color:var(--grey-mid);font-size:0.82rem;">
+                <i class="fas fa-map-marker-alt me-2" style="color:var(--violet-glow);" aria-hidden="true"></i>
+                Abomey-Calavi, Bénin
+              </span>
+            </li>
+            <li style="margin-bottom:0.9rem;">
+              <a href="mailto:contact@zinwear.com" style="color:var(--grey-mid);">
+                <i class="fas fa-envelope me-2" style="color:var(--violet-glow);" aria-hidden="true"></i>
+                contact@zinwear.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:+2290143681118" style="color:var(--grey-mid);">
+                <i class="fas fa-phone me-2" style="color:var(--violet-glow);" aria-hidden="true"></i>
+                +229 01 43 68 11 18
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div><!-- /.row -->
+
+      <!-- Footer bottom -->
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 ZINWEAR — Tous droits réservés</p>
+        <p class="footer-copy">MOMBO OMIAGA E. · AGBO H. · DAVAKAN L.M.</p>
+        <p class="footer-copy">Abomey-Calavi, République du Bénin</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ====================================================
+       CHATBOT WIDGET
+  ===================================================== -->
+  <!-- Chatbot trigger button -->
+  <button id="chatbot-trigger" aria-label="Ouvrir le chatbot ZINWEAR" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+    </svg>
+  </button>
+
+  <!-- Chatbot window -->
+  <div id="chatbot-window" role="dialog" aria-label="Assistant ZINWEAR" aria-modal="true">
+    <div class="chatbot-header">
+      <div class="chatbot-header-info">
+        <div class="chatbot-avatar" aria-hidden="true">Z</div>
+        <div>
+          <div class="chatbot-title">Assistant ZINWEAR</div>
+          <div class="chatbot-status">En ligne</div>
+        </div>
+      </div>
+      <button class="chatbot-close" id="chatbot-close" aria-label="Fermer le chatbot">
+        <i class="fas fa-times" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="chatbot-messages" id="chatbot-messages" aria-live="polite" aria-label="Messages du chat"></div>
+    <div class="chatbot-input-row">
+      <input type="text" class="chatbot-input" id="chatbot-input"
+             placeholder="Posez votre question..." aria-label="Votre message" maxlength="500" />
+      <button class="chatbot-send" id="chatbot-send" aria-label="Envoyer">
+        <i class="fas fa-paper-plane" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Cart Notification -->
+  <div id="cart-notification" role="alert" aria-live="polite">
+    <div class="notif-text">Produit ajouté</div>
+    <div class="notif-sub">Panier mis à jour ✓</div>
+  </div>
+
+  <!-- Back to top -->
+  <button id="back-to-top" aria-label="Retour en haut de la page">
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
